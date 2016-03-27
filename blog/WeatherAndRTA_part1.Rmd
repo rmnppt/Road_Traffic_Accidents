@@ -1,0 +1,13 @@
+---
+title: "Does weather cause accidents - part 1"
+output: html_document
+author: "Roman Popat"
+date: "27 March 2015"
+layout: post
+---
+
+Scotland and other parts of the UK have some nicely curated open data on road traffic accidents. For individual cases, where and when they happened, how severe they were, the prevailing road conditions, which emergency services were involved and so on. It felt to me like this should be a very valuable resource and might help us learn about what the causes or maybe correlates of road traffic accidents are. This is partly inspired by Ben Moores work at <http://blackspot.org.uk/>.
+
+One thought that sprang to mind was could we test the common belief that adverse weather conditions result in increased incidence and severity of road traffic accidents. The first part of this was to collect and blend some information on weather conditions for each crash recorded. In this blog, I will explain how I obtained / blended weather information relating to each road traffic incident.
+
+The raw data can be found on [Edinburgh City Council's website]( http://www.edinburghopendata.info/dataset/vehicle-collisions) or pinched from the github repository associated with this post, see the `/data` folder.
