@@ -1,4 +1,4 @@
-### does adverse wethear corrlate with number of incidents on particular days
+### does adverse weather corrlate with number of incidents on particular days
 ### some data wrangling
 library(dplyr)
 library(tidyr)
